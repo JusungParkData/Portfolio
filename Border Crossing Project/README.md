@@ -4,7 +4,7 @@ Border crossings have been trending down overall in recent months, but this repo
 
 ### **Observation A:**
 <img width="898" height="206" alt="Screenshot 2025-07-18 at 4 14 33 PM" src="https://github.com/user-attachments/assets/e474f680-8ea4-4b6c-bb15-c389f12bfb3e" />
-*First, we notice that total border crossings were averaging around 30M from Jan 2023 to Jan 2025. However, with the beginning of the Trump Presidency, we notice a significant 17% drop in crossings down from 30M to 25M in Feb 2025.
+* First, we notice that total border crossings were averaging around 30M from Jan 2023 to Jan 2025. However, with the beginning of the Trump Presidency, we notice a significant 17% drop in crossings down from 30M to 25M in Feb 2025.*
 
 **A logical next step is to identify which specific ports experienced the largest increases or decreases in crossing volume**.
 
@@ -17,3 +17,48 @@ While these experienced the largest increases:
 **A recommendation for border officials would be to redirect some of the resources and personnel from the decreasing ports to the increasing ones.**
 
 Specifically, more foot patrol would be needed at ports El Paso and Columbus, while more truck lanes would be needed at port Eastport
+
+
+   <td>
+
+```
+SELECT *
+FROM
+(
+SELECT
+  "Port Name",
+  "Border",
+  "Measure",
+  "State",
+  Date,
+  SUM("Value") AS total_value,
+  LAG(SUM("Value")) OVER (
+    PARTITION BY "Port Name", "Measure","State"
+    ORDER BY Date
+  ) AS prev_month_value,
+  SUM("Value") - LAG(SUM("Value")) OVER (
+    PARTITION BY "Port Name", "Measure","State"
+    ORDER BY Date
+  ) AS change_in_value,
+  ROUND(
+    100.0 * (
+      SUM("Value") - LAG(SUM("Value")) OVER (
+        PARTITION BY "Port Name", "Measure","State"
+        ORDER BY Date
+      )
+    ) / NULLIF(LAG(SUM("Value")) OVER (
+      PARTITION BY "Port Name", "Measure","State"
+      ORDER BY Date
+    ), 0),
+    1
+  ) AS percent_change
+FROM main."B All"
+GROUP BY
+  "Port Name", "Border", "Measure", "State",Date
+)
+where percent_change is not null   
+ORDER BY percent_change desc
+```
+
+
+   </td>
