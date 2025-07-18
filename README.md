@@ -19,7 +19,7 @@ Core Competencies:
 
 
 ## **Featured Projects**
-### **1. 📊 [Border Entry Analysis - US Borders](https://github.com/dawnxchoo/portfolio/blob/main/projects/01_customer_churn_eda)**
+### **1. 📊 [Border Entry Analysis - US Borders](https://github.com/JusungParkData/Portfolio/tree/main/Border%20Crossing%20Project)**
 
 
 ## Predicitng future border crossing numbers through data-driven insights
@@ -31,4 +31,4 @@ Core Competencies:
 * Skills: Exploratory Data Analysis, Statistical Testing, Business Intelligence, Stakeholder Communication
 
 
-## **[View Project →](https://github.com/dawnxchoo/portfolio/blob/main/projects/01_customer_churn_eda)**
+## **[View Project →](https://github.com/JusungParkData/Portfolio/tree/main/Border%20Crossing%20Project)**
