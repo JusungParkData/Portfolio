@@ -12,7 +12,7 @@ Core Competencies:
 
 
 * Languages: SQL, Python, R
---* ML/Statistics: Scikit-learn, XGBoost, TensorFlow, Time Series Analysis, A/B Testing
+* ML/Statistics: Time Series Analysis, A/B Testing
 * Visualization: Apache Superset, Streamlit, Tableau
 * Tools: Jupyter, Git, Snowflake, DBT, ETLworks
 * Domains: Transportation, Fleet Management, Healthcare Analytics, Operational Efficiency
