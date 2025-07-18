@@ -14,7 +14,7 @@ Core Competencies:
 * Languages: SQL, Python, R
 * ML/Statistics: Time Series Analysis, A/B Testing
 * Visualization: Apache Superset, Streamlit, Tableau
-* Tools: Jupyter, Git, Snowflake, DBT, ETLworks
+* Tools: Git, Snowflake, DBT, ETLworks, Sequel Ace(MySQL)
 * Domains: Transportation, Fleet Management, Healthcare Analytics, Operational Efficiency
 
 
