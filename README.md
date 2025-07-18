@@ -17,6 +17,9 @@ Core Competencies:
 * Tools: Git, Snowflake, DBT, ETLworks, Sequel Ace(MySQL)
 * Domains: Transportation, Fleet Management, Healthcare Analytics, Operational Efficiency
 
+## **Data Pipeline used at Previous Job**
+<img width="1266" height="744" alt="Screenshot 2025-07-18 at 4 40 32 PM" src="https://github.com/user-attachments/assets/9d1489c7-4971-43d7-be58-92dc287d597a" />
+
 
 ## **Featured Projects**
 ### **1. 📊 [Border Entry Analysis - US Borders](https://github.com/JusungParkData/Portfolio/tree/main/Border%20Crossing%20Project)**
