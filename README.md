@@ -1,21 +1,25 @@
-# **My Data Science Portfolio**
+# **My Data Portfolio**
 
-This is a sample -- not real projects! Welcome to my data science portfolio! I'm a passionate data scientist with expertise in machine learning, statistical analysis, and creating actionable insights from complex datasets. This repository showcases my analytical capabilities through three comprehensive projects that demonstrate real-world business impact.
+Welcome to my data portfolio! I'm a passionate data analyst with expertise in machine learning, statistical analysis, and creating actionable insights from complex datasets. This repository showcases my analytical capabilities through comprehensive projects that demonstrate real-world business impact.
 
 
 ## **About Me**
 
-I'm a data scientist with 5+ years of experience transforming data into strategic business decisions. My expertise spans predictive modeling, exploratory data analysis, and building interactive dashboards that empower stakeholders. I'm passionate about using data to solve complex business problems and drive measurable results.
+I'm a data analyst with 4+ years of experience transforming data into strategic business decisions. My expertise spans predictive modeling, exploratory data analysis, and building interactive dashboards that empower stakeholders. I'm passionate about using data to solve complex business problems and drive measurable results.
 
 Core Competencies:
 
 
 
 * Languages: Python, SQL, R
-* ML/Statistics: Scikit-learn, XGBoost, TensorFlow, Time Series Analysis, A/B Testing
-* Visualization: Matplotlib, Seaborn, Plotly, Streamlit, Tableau
-* Tools: Jupyter, Git, Docker, AWS, Apache Spark
-* Domains: Customer Analytics, Revenue Optimization, Marketing Analytics, Operational Efficiency
+--* ML/Statistics: Scikit-learn, XGBoost, TensorFlow, Time Series Analysis, A/B Testing
+* Visualization: Apache Superset, Streamlit, Tableau
+* Tools: Jupyter, Git, Snowflake, DBT, ETLworks
+* Domains: Transportation, Fleet Management, Healthcare Analytics, Operational Efficiency
 
 
 ## **Featured Projects**
+### **1. 📊 [Customer Churn Analysis - Telecommunications](https://github.com/dawnxchoo/portfolio/blob/main/projects/01_customer_churn_eda)**
+
+
+## Reducing customer attrition through data-driven insights
