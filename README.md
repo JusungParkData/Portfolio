@@ -11,7 +11,7 @@ Core Competencies:
 
 
 
-* Languages: Python, SQL, R
+* Languages: SQL, Python, R
 --* ML/Statistics: Scikit-learn, XGBoost, TensorFlow, Time Series Analysis, A/B Testing
 * Visualization: Apache Superset, Streamlit, Tableau
 * Tools: Jupyter, Git, Snowflake, DBT, ETLworks
@@ -19,7 +19,7 @@ Core Competencies:
 
 
 ## **Featured Projects**
-### **1. 📊 [Customer Churn Analysis - Telecommunications](https://github.com/dawnxchoo/portfolio/blob/main/projects/01_customer_churn_eda)**
+### **1. 📊 [Border Entry Analysis - US Borders](https://github.com/dawnxchoo/portfolio/blob/main/projects/01_customer_churn_eda)**
 
 
-## Reducing customer attrition through data-driven insights
+## Predicitng future border crossing numbers through data-driven insights
