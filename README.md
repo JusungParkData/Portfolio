@@ -25,3 +25,7 @@ flowchart LR
     C --> D[🛠️ dbt Transformations]
     D --> E[🗄️ BigQuery]
     E --> F[📊 Apache Superset Dashboard]
+```
+
+## 📂 Current Dashboard
+<img width="1709" height="800" alt="Screenshot 2025-08-19 at 3 24 53 PM" src="https://github.com/user-attachments/assets/56a7d757-e4d9-4f2a-b952-414e1d42e1db" />
